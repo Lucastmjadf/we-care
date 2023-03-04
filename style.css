@@ -1,0 +1,163 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.box-higth {
+    position: relative;
+    width: 513px;
+    margin-top: 138px;
+    margin-left: 86px;
+}
+
+.box-left {
+    margin-top: 144px;
+}
+
+header {
+    cursor: pointer;
+    margin-left: 76px;
+}
+
+a {
+    margin-right: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+}
+
+p {
+    margin-top: 32px;
+}
+
+.button-log-in {
+    background: #665AE1;
+    border-radius: 20.5px;
+    border: none;
+    Width: 130px;
+    Height: 41px;
+    font-size: 24px;
+    line-height: 29px;
+    color: azure;
+    font-weight: 600;
+}
+
+button {
+    margin-top: 62px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    border: none;
+    background: #ADFF00;
+    border-radius: 20.5px;
+    Width: 239px;
+    Height: 64px;
+    cursor: pointer;
+}
+
+button:active {
+    border: 4px #48ff00 solid;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.button-log-in:active {
+    border: 4px rgb(59, 51, 153) solid;
+}
+
+.button-log-in:hover {
+    opacity: 0.8;
+}
+
+img {
+    max-width: 568px;
+
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+}
+
+@media screen and (max-width:1230px) {
+    p{
+        display: none;
+    }
+    header{
+        display: none;
+    }
+    main {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    img {
+        max-width: 354px;
+        margin-top: 24%;
+    }
+
+    h1 {
+        margin-top: 5%;
+        font-size: 50px;
+        line-height: 61px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: 61px;
+        text-align: center;
+    }
+    .box-higth{
+        margin: 0;
+        padding: 10px; 
+    }
+    .box-left{
+        padding: 14px;
+        margin: 0;
+    }
+    button{
+        display: block;
+    margin: 17px auto 0;
+    }
+}
+@media screen and (max-height:640px) {
+    img {
+        max-width: 300px;
+        margin-top: 5px;
+    }
+}
