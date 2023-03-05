@@ -8,28 +8,25 @@
 body {
     width: 100vw;
     height: 100vh;
+    position: static;
 }
 
 main {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin: 138px auto auto 125px;
+
 }
 
 .box-higth {
-    position: relative;
-    width: 513px;
-    margin-top: 138px;
-    margin-left: 86px;
+    Width: 515px;
+    margin-left: 100px;
 }
-
-.box-left {
-    margin-top: 144px;
-}
-
 header {
+    position: relative;
+    top: 30px;
+    left: 60px;
     cursor: pointer;
-    margin-left: 76px;
 }
 
 a {
@@ -40,34 +37,30 @@ a {
     color: #989D9C;
 }
 
-p {
-    margin-top: 32px;
-}
-
 .button-log-in {
+    cursor: pointer;
     background: #665AE1;
     border-radius: 20.5px;
-    border: none;
-    Width: 130px;
-    Height: 41px;
+    font-weight: 600;
     font-size: 24px;
     line-height: 29px;
-    color: azure;
-    font-weight: 600;
+    color: #FFFFFF;
+    Width: 130px;
+    Height: 41px;
+    border: none;
 }
 
 button {
-    margin-top: 62px;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 34px;
-    color: #000000;
     border: none;
+    cursor: pointer;
     background: #ADFF00;
     border-radius: 20.5px;
     Width: 239px;
     Height: 64px;
-    cursor: pointer;
+    color: #000000;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px
 }
 
 button:active {
@@ -87,7 +80,7 @@ button:hover {
 }
 
 img {
-    max-width: 568px;
+    max-width: 480px;
 
 }
 
@@ -103,6 +96,8 @@ h2 {
     font-size: 58px;
     line-height: 71px;
     color: #515151;
+    margin-bottom: 32px;
+
 }
 
 p {
@@ -110,54 +105,64 @@ p {
     font-size: 24px;
     line-height: 29px;
     color: #848484;
+    margin-bottom: 50px;
 }
 
-@media screen and (max-width:1230px) {
-    p{
+@media screen and (max-width:1116px) {
+    p {
         display: none;
     }
-    header{
+
+    header {
         display: none;
     }
+
     main {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        position: relative;
+        flex-direction: column;
+        margin: 0;
+        align-items: center;
+        align-content: center;
+        top: 15%;
     }
 
     img {
         max-width: 354px;
-        margin-top: 24%;
+
     }
 
     h1 {
-        margin-top: 5%;
         font-size: 50px;
         line-height: 61px;
-        text-align: center;
+
     }
 
     h2 {
         font-size: 30px;
-        line-height: 61px;
-        text-align: center;
+        line-height: 37px;
+        margin: 5px auto 10px auto;
     }
-    .box-higth{
+
+    .box-higth {
         margin: 0;
-        padding: 10px; 
+        width: auto;
     }
-    .box-left{
-        padding: 14px;
-        margin: 0;
-    }
-    button{
-        display: block;
-    margin: 17px auto 0;
+
+    .box-left {
+        width: auto;
     }
 }
+
 @media screen and (max-height:640px) {
     img {
         max-width: 300px;
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width:360px) {
+    img {
+        max-width: 280px;
         margin-top: 5px;
     }
 }
