@@ -4,3 +4,5 @@ Este foi um projeto que desenvolvi no início dos meus estudos de desenvolviment
 Para criar o site, utilizei técnicas de design responsivo, como media queries, para ajustar o layout e o conteúdo de acordo com o tamanho da tela. Também utilizei boas práticas de codificação para garantir que o site fosse acessível e fácil de usar em diferentes dispositivos.
 
 O resultado foi um site simples apenas com a parte gráfica  que eu pude usar como uma base para projetos futuros e que me ajudou a aprender as habilidades iniciais necessárias para desenvolver sites responsivos.<p/>
+
+  <img src="https://github.com/Lucastmjadf/we-care/blob/master/assets/rmd.png?raw=true" alt="ilustração-do-projeto">
